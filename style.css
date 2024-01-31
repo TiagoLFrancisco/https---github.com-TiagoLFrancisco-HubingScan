@@ -65,7 +65,7 @@
 }
 
 #quickstart {
-    background-image: url('./background1.png');
+    background-image: url('assets/background1.png');
     background-size: cover;
     height: 100vh;
     padding-top: 232px;
