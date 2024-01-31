@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateNavbar() {
         if (window.scrollY > 0) {
             navbar.classList.add('scrolled-navbar');
-            logo.src = 'C:\\Users\\Tiago\\Documents\\bibi\\logo_color.png'; // Update to the path of your colored logo
+            logo.src = 'assets\\logo_color.png'; // Update to the path of your colored logo
         } else {
             navbar.classList.remove('scrolled-navbar');
-            logo.src = 'C:\\Users\\Tiago\\Documents\\bibi\\logo.png'; // Update to the path of your original logo
+            logo.src = 'assets\\logo.png'; // Update to the path of your original logo
         }
     }
 
